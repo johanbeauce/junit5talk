@@ -11,6 +11,11 @@ public class IgnoreSomeMethod {
     }
 
     @Test
+    void test_which_should_not_run() {
+        System.out.println("This test should not run");
+    }
+
+    @Test
     void test_only_on_mac() {
         System.out.println("test_only_on_mac");
     }
