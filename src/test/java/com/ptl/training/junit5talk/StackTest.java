@@ -46,7 +46,7 @@ public class StackTest {
         }
 
         @Test
-        @DisplayName("throws EmptyStackException when popped")
+        @DisplayName("throws EmptyStackException when peeked")
         void throwsExceptionWhenPeeked() {
             assertThrows(EmptyStackException.class, stack::peek);
         }
