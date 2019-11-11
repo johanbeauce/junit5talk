@@ -9,11 +9,11 @@ class GreetingTest {
     Greeting greeting;
 
     static void beforeClass() {
-        System.out.println("before the class");
+        System.out.println("");
     }
 
-    void beforeMethod() {
-        System.out.println("before the method");
+    void beforeEachTestMethod() {
+        System.out.println("");
     }
 
     @Test
@@ -23,11 +23,11 @@ class GreetingTest {
         assertEquals("hello world", greeting.helloWorld());
     }
 
-    void afterMethod() {
-        System.out.println("after the method");
+    void afterEachTestMethod() {
+        System.out.println("");
     }
 
     static void afterClass() {
-        System.out.println("after the class");
+        System.out.println("");
     }
 }
