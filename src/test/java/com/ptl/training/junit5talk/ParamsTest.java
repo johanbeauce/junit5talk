@@ -29,7 +29,7 @@ public class ParamsTest {
 
     void test_params_arguments_source(String name, int id, List<String> list) {
         System.out.println(id + " - " + name + " - " + list);
-        assertEquals(4, name.length());
+        assertEquals(5, name.length());
         assertTrue(id > 0 && id < 4);
         assertEquals(2, list.size());
     }

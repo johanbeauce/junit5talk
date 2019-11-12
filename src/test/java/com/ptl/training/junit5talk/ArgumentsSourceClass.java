@@ -14,7 +14,7 @@ public class ArgumentsSourceClass implements ArgumentsProvider {
     public Stream<? extends Arguments> provideArguments(ExtensionContext extensionContext) throws Exception {
         return Stream.of(
                 arguments("apple", 1, Arrays.asList("a", "b")),
-                arguments("citrus", 2, Arrays.asList("k", "v")),
+                arguments("melon", 2, Arrays.asList("k", "v")),
                 arguments("lemon", 3, Arrays.asList("x", "y"))
         );
     }
